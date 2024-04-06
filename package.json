@@ -1,0 +1,25 @@
+{
+  "name": "india-package",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "build:dev": "rollup -c --environment NODE_ENV:development",
+    "build": "rollup -c --environment NODE_ENV:production"
+  },
+  "keywords": [
+    "react",
+    "india",
+    "hooks",
+    "npm"
+  ],
+  "author": "lheumell",
+  "license": "MIT",
+  "description": "",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "rollup": "^4.13.2",
+    "rollup-plugin-terser": "^7.0.2"
+  }
+}
